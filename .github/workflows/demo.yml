@@ -14,5 +14,5 @@ jobs:
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        github_token: gh-pages
-        publish_dir: dist
+        branch: gh-pages
+        folder: dist
