@@ -3,10 +3,10 @@ on: push
 jobs:
   job1:
     steps:
-      - run: pwd
-      - run: echo "Hello World"
-      - run: ls
+    - run: pwd
+    - run: echo "Hello World"
+    - run: ls
   job2:
     steps:
-      - run: node --version
-      - run: npm --version
+    - run: node --version
+    - run: npm --version
